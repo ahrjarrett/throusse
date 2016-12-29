@@ -55,6 +55,6 @@ p.subtitle {
   content: '';
 }
 
-div.post-meta.post-meta-post time.post-date {
+header.post-header .post-meta-post {
   text-align: left;
 }
