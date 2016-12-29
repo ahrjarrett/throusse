@@ -1,5 +1,33 @@
 /* replace this file with custom styles */
 
-body {
-  background-color: #fffff8 !important;
+@font-face {
+  font-family: Schola;
+  src: url("../fonts/texgyreschola-regular.ttf");
 }
+
+@font-face {
+  font-family: Schola;
+  src: url("../fonts/texgyreschola-italic.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Schola;
+  src: url("../fonts/texgyreschola-bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Schola;
+  src: url("../fonts/texgyreschola-bolditalic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+body {
+  background-color: #fff;
+  font-family: Schola, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+
+
