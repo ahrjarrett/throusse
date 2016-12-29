@@ -43,11 +43,13 @@ body {
 
 .post-content {
   text-align: justify;
+  /*width: 55%;*/
 }
 
 p.subtitle {
   font-weight: bold;
-  font-variant: small-caps;
+  font-style: regular;
+  /*font-variant: small-caps;*/
 }
 
 
