@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: Schola;
   src: url("../fonts/texgyreschola-regular.ttf");
@@ -28,6 +29,16 @@ body {
   font-family: Schola, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
 }
 
+.post-content {
+  text-align: justify;
+}
+
+p.subtitle {
+  font-weight: bold;
+  font-style: normal;
+  /*font-variant: small-caps;*/
+}
+
 .nav, .nav-opened .menu-button, .no-js-nav {
   background: #eee;
 }
@@ -41,15 +52,6 @@ body {
   color: #6b5289;
 }
 
-.post-content {
-  text-align: justify;
-  /*width: 55%;*/
+.nav li:before {
+  content: '';
 }
-
-p.subtitle {
-  font-weight: bold;
-  font-style: regular;
-  /*font-variant: small-caps;*/
-}
-
-
