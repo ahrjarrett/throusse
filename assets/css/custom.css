@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: Schola;
   src: url("../fonts/texgyreschola-regular.ttf");
@@ -54,4 +53,8 @@ p.subtitle {
 
 .nav li:before {
   content: '';
+}
+
+div.post-meta time.post-date {
+  text-align: inherit;
 }
