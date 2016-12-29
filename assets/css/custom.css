@@ -1,5 +1,3 @@
-/* replace this file with custom styles */
-
 @font-face {
   font-family: Schola;
   src: url("../fonts/texgyreschola-regular.ttf");
@@ -28,6 +26,28 @@
 body {
   background-color: #fff;
   font-family: Schola, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+
+.nav, .nav-opened .menu-button, .no-js-nav {
+  background: #eee;
+}
+
+.nav-opened .menu-button {
+  background: #eee;
+  border-color: #eee;
+}
+
+.nav li a, .no-js-nav li a {
+  color: #6b5289;
+}
+
+.post-content {
+  text-align: justify;
+}
+
+p.subtitle {
+  font-weight: bold;
+  font-variant: small-caps;
 }
 
 
