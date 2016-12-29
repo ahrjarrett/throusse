@@ -55,6 +55,6 @@ p.subtitle {
   content: '';
 }
 
-div.post-meta time.post-date {
-  text-align: inherit;
+div.post-meta.post-meta-post time.post-date {
+  text-align: left;
 }
